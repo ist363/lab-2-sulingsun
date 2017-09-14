@@ -1,0 +1,42 @@
+*{
+    padding:0;
+    margin:0;
+    height:100%;
+}
+
+.container1{
+    display:flex;
+    flex-direction:column;
+}
+
+.header{
+    height:100px;
+    background-color:#F44337;
+    width:100%;
+}
+
+.footer{
+    height:200px;
+    background-color:#434343;
+    width:100%;
+}
+
+.one{
+    display:flex;
+}
+
+.two{
+    background-color:lightgrey;
+    margin:10px;
+    width:75%;
+    border: 1px solid #CECECE;
+    height:auto;
+}
+
+.three{
+    background-color:lightgrey;
+    margin:10px;
+    width:25%;
+    border: 1px solid #CECECE;
+    height:auto;
+}
