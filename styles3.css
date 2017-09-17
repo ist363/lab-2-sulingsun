@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.page3{
+    display:flex;
+    width:900px;
+    height:auto;
+    flex-wrap:wrap;
+}
+
+.item{
+    margin:10px;
+    background-color:lightcoral;
+    flex-grow:1;
+    width:31%;
+    height:200px;
+}
